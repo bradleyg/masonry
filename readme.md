@@ -7,7 +7,7 @@ Pass a directory of templates. Masonry will read all of the template files into 
 Method added by the middleware. Renders a template. If a third parameter (callback) is provided the data will be returned rather than sent to the browser. The first param will be an error object, the second will be the rendered html.
 
 ```
-var app = require('obedient')
+var app = require('express').createServer()
 var masonry = require('masonry')
 
 app.use(masonry(__dirname + '/templates'))

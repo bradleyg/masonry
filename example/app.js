@@ -1,4 +1,4 @@
-var app = require('obedient')
+var app = require('express').createServer()
 var masonry = require('masonry')
 
 app.use(masonry(__dirname + '/templates'))

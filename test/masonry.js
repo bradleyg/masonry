@@ -1,4 +1,4 @@
-var app = require('obedient')
+var app = require('express').createServer()
 var request = require('request')
 var should = require('should')
 var path = require('path')
