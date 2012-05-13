@@ -1,4 +1,4 @@
-###Obedient - Templating middleware for embedded javascript templates.   
+###Masonry - Templating middleware for embedded javascript templates.   
 Install: ```npm install masonry```
 ***
 ###masonry(directory):  
