@@ -5,6 +5,7 @@ var compiled = []
 
 var render = function(template, data, cb) {
   var error = null
+  data = data || {}
   
   try {
     var output = compiled[template](data)
